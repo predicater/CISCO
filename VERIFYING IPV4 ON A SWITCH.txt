@@ -1,0 +1,10 @@
+//////VERIFYING IPV4 ON A SWITCH//////
+
+######Modo Privilegiado #######
+
+1.Verificar la configuracion de IPV4 | DHCP en el switch
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+show dhcp lease
+show interfaces vlan 1
+show ip default-gateway
+

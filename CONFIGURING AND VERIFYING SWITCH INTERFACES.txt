@@ -1,0 +1,25 @@
+//////CONFIGURING AND VERIFYING SWITCH INTERFACES//////
+
+######Modo Configuracion XXXXXXXXXX#######
+
+1.XXXXXXXXXX
++++++++++++++++++++++++++++++++++
+
+2. XXXXXXXXXXXXXXXXX
++++++++++++++++++++++++++++++++++++
+
+
+######Modo Configuracion XXXXXXXXXXXXXXXXXX#######
+
+3. xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+4. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+######Modo Configuracion XXXXXXXXXXXXXX#######
+
+4. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+++++++++++++++++++++++++++++++++++++++++

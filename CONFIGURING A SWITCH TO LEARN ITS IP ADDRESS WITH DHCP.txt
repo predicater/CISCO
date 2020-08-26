@@ -1,0 +1,19 @@
+//////CONFIGURING A SWITCH TO LEARN ITS IP ADDRESS WITH DHCP//////
+
+######Modo Configuracion Global #######
+
+1.Ingresar al modo de configuracion de interface vlan
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+interface vlan 1
+
+3.Habilitar la configiuracion del gateway
+++++++++++++++++++++++++++++++++++++++++++
+ip default-gateway 192.168.1.1
+
+######Modo Configuracion Interface #######
+
+2. Configuracion de interface VLAN 1
+++++++++++++++++++++++++++++++++++++
+ip address dhcp
+no shutdown
+exit

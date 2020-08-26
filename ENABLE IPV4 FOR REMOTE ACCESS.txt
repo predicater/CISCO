@@ -1,0 +1,21 @@
+//////ENABLE IPV4 FOR REMOTE ACCESS//////
+
+######Modo Configuracion Global #######
+
+1.Ingresar al modo de configuracion de vlan
+++++++++++++++++++++++++++++++++++++++++++++
+interface vlan 1
+
+3.Habilitar la configiuracion del gateway
+++++++++++++++++++++++++++++++++++++++++++
+ip default-gateway 192.168.1.1
+
+######Modo Configuracion Interface #######
+
+2. Configuracion de interface VLAN 1
+++++++++++++++++++++++++++++++++++++
+ip address 192.168.1.200 255.255.255.0
+no shutdown
+exit
+
+

@@ -1,0 +1,40 @@
+//////SSH//////
+
+######Modo Configuracion Global#######
+
+1.Configuracion de General de SSH
++++++++++++++++++++++++++++++++++
+hostname XXXX
+ip domain-name example.com
+crypto key generate rsa
+1024
+ip ssh version 2
+
+2. Configuracion de usuario locales
++++++++++++++++++++++++++++++++++++
+username jose secret xxxx
+username pedro secret xxxx
+
+######Modo Configuracion de Linea VTY#######
+
+3. Configuracion de la linea vty para usuarios locales
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+line vty 0 15
+login local
+no password
+
+4. Configuracion del motodo de transporte de linea VTY
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+transport input all or transport input telnet ssh: Support both Telnet and SSH
+transport input none: Support neither
+transport input telnet: Support only Telnet
+transport input ssh: Support only SSH
+
+######Modo EXEC Privilegiado#######
+
+5. Visualizar las configuraciones de SSH
+++++++++++++++++++++++++++++++++++++++++
+show ip ssh
+show ssh
+
+
