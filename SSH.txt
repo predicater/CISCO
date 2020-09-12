@@ -36,5 +36,6 @@ transport input ssh: Support only SSH
 ++++++++++++++++++++++++++++++++++++++++
 show ip ssh
 show ssh
+show crypto key mypubkey rsa
 
 

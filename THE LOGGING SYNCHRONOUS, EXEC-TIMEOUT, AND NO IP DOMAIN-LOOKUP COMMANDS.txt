@@ -1,0 +1,16 @@
+//////THE LOGGING SYNCHRONOUS, EXEC-TIMEOUT, AND NO IP DOMAIN-LOOKUP COMMANDS//////
+
+######Modo Configuracion Global #######
+no ip domain-lookup
+
+######Modo Configuracion de linea consola #######
+line console 0
+exec-timeout 0 0
+logging synchronous
+history size 20
+
+######Modo Configuracion de linea vty #######
+line vty 0 15
+exec-timeout 0 0
+logging synchronous
+history size 20

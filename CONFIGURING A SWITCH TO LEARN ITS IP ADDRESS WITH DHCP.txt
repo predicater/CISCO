@@ -17,3 +17,7 @@ ip default-gateway 192.168.1.1
 ip address dhcp
 no shutdown
 exit
+
+4. Visualizar las configuraciones de dhcp
+++++++++++++++++++++++++++++++++++++++++
+show dhcp lease

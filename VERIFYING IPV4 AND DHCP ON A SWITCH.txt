@@ -1,4 +1,4 @@
-//////VERIFYING IPV4 ON A SWITCH//////
+//////VERIFYING IPV4 AND DHCP ON A SWITCH//////
 
 ######Modo Privilegiado #######
 
