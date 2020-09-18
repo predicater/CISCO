@@ -1,0 +1,18 @@
+//////AUTO-MDIX//////
+
+######Modo Configuracion de interfaces#######
+
+1.Configura el modo auto-mdix en una interface
++++++++++++++++++++++++++++++++++++++++++++++++
+mdix auto
+
+
+######Modo EXEC Privilegiado#######
+
+2. Visualizar la configuracion de auto-mdix
+++++++++++++++++++++++++++++++++++++++++++++
+show controllers ethernet-controller fa0/1 phy | include MDIX
+
+
+
+

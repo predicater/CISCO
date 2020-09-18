@@ -8,3 +8,7 @@ show dhcp lease
 show interfaces vlan 1
 show ip default-gateway
 
+
+
+
+
